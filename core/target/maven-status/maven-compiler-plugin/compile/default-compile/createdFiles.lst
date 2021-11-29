@@ -1,0 +1,7 @@
+org\okaru\MessageGenerator.class
+org\okaru\NumberGeneratorImpl.class
+org\okaru\GameImp.class
+org\okaru\MessageGeneratorImp.class
+org\okaru\NumberGenerator.class
+org\okaru\AppConfig.class
+org\okaru\Game.class
