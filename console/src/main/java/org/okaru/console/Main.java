@@ -24,7 +24,7 @@ public class Main {
         NumberGenerator numberGenerator
                 = context.getBean(NumberGenerator.class);
 
-        //call method next() to get a randon number
+        //call method next() to get a random number
         int number = numberGenerator.next();
 
         //log generated number

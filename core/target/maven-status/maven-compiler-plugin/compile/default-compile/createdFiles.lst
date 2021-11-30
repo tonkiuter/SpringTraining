@@ -1,7 +1,10 @@
 org\okaru\MessageGenerator.class
 org\okaru\NumberGeneratorImpl.class
+org\okaru\GuessCount.class
 org\okaru\GameImp.class
 org\okaru\MessageGeneratorImp.class
+org\okaru\config\AppConfig.class
 org\okaru\NumberGenerator.class
-org\okaru\AppConfig.class
+org\okaru\config\GameConfig.class
 org\okaru\Game.class
+org\okaru\MaxNumber.class

@@ -2,6 +2,7 @@ package org.okaru.config;
 
 import org.okaru.GuessCount;
 import org.okaru.MaxNumber;
+import org.okaru.MinNumber;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -12,6 +13,7 @@ public class GameConfig {
 
     private int guessCount = 20;
 
+    private int minNumber = 5;
     //Beans
     @Bean
     @MaxNumber
@@ -23,5 +25,11 @@ public class GameConfig {
     @GuessCount
     public int guessCount(){
         return guessCount;
+    }
+
+    @Bean
+    @MinNumber
+    public int minNumber(){
+        return minNumber;
     }
 }
